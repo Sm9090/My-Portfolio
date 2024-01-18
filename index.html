@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"> Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon" onclick="toggleMenu()"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">about</a>
+            <a href="#services">Services</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+
+    </header>
+
+    <!-- Home section Design  -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello it's me</h3>
+            <h1>Sameer Memon</h1>
+            <h3>And i'm a <span>Frontend Developer</span></h3>
+            <p>
+                As a front-end developer, I excel in the art of blending creativity with technical proficiency. My
+                primary focus revolves around meticulously crafting visually stunning and user-friendly interfaces for
+                websites and applications. With a knack for transforming design concepts into seamless and interactive
+                user experiences, my work aims to make the digital realm more accessible and enjoyable for users.</p>
+            <div class="social-media">
+                <a href="www.linkedin.com/in/sameer-memon-0078002a4"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img"><img src="./Images/home.png" alt=""></div>
+
+    </section>
+
+    <!-- about section  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>👋 Assalam-o-Alaikum! Motivated frontend developer with a passion for creating user-friendly and visually
+                appealing web applications. Currently honing skills in React.js, I thrive on turning creative ideas into
+                functional and responsive interfaces.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- servicess section  -->
+    <!-- 
+    <section class="Services" id="Services">
+        <div class="service-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, molestias. Reiciendis earum voluptatibus a mollitia!</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+    </section> -->
+
+
+
+    <!-- Portfolio section -->
+
+    <section class="Portfolio" id="Portfolio">
+        <h2 class="heading"> Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, excepturi.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+            <img src="images/portfolio2.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, excepturi.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, excepturi.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, excepturi.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, excepturi.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact section  -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email subject">
+
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Messagee" class="btn">
+            
+
+        </form>
+    </section>
+
+    <!-- footer Design  -->
+    <div class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by SM | All Rights Reserved</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+</div>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./script.js"></script>
+</body>
+
+
+</html>
