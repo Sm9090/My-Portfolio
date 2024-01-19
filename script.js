@@ -63,3 +63,10 @@ ScrollReveal().reveal('.home-img, .portfolio-box , .contact form' , { origin: 'b
 ScrollReveal().reveal('.home-content h1, .about-img' , { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content' , { origin: 'right' });
 
+function linkdIn(){
+    location.href = 'https://www.linkedin.com/in/sameer-memon-0078002a4/'
+}
+
+function gitHub(){
+    location.href = 'https://github.com/Sm9090'
+}
