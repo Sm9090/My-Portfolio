@@ -70,3 +70,9 @@ function linkdIn(){
 function gitHub(){
     location.href = 'https://github.com/Sm9090'
 }
+
+
+$('.dev').on('click', function(){
+    $('.part').toggleClass('devmode');
+    return false;
+  });
